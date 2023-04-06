@@ -59,17 +59,11 @@ namespace Artemis.Plugins.Games.Subnautica.DataModels
         public int OxygenAvailable { get; set; }
 
         public PlayerPDAState PDAState { get; set; }
-        public bool PDAopened { get; set; }
-        public bool PDAclosed { get; set; }
-        public bool PDAopening { get; set; }
-        public bool PDAclosing { get; set; }
 
         public bool IsSwimming { get; set; }
 
         public PlayerMotorMode MotorMode { get; set; }
-        public bool IsSeagliding { get; set; }
 
         public PlayerMode Mode { get; set; }
-        public bool IsPiloting { get; set; }
     }
 }

@@ -5,7 +5,7 @@
   "Author": "Diekase",
   "Website": "https://artemis-rgb.com/",
   "Repository": "",
-  "Icon": "QuestionMark",
+  "Icon": "icon.png",
   "Version": "1.0.0.0",
   "Main": "Artemis.Plugins.Games.Subnautica.Module.dll",
   "AutoEnableProperties": true,

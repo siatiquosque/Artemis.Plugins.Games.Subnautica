@@ -3,7 +3,7 @@
   "ProfileConfigurationEntity": {
     "$type": "Artemis.Storage.Entities.Profile.ProfileConfigurationEntity, Artemis.Storage",
     "Name": "Subnautica",
-    "MaterialIcon": "JetEngine",
+    "MaterialIcon": "GasCylinder",
     "IconOriginalFileName": null,
     "FileIconId": "00000000-0000-0000-0000-000000000000",
     "IconType": 0,
@@ -36,15 +36,15 @@
           },
           {
             "$type": "Artemis.Storage.Entities.Profile.Nodes.NodeEntity, Artemis.Storage",
-            "Id": "44d21dec-f030-4abf-a9fd-f4d00e0779c0",
-            "Type": "DataModelNode",
+            "Id": "e18b22a0-2098-42ec-b1c6-e1794d477967",
+            "Type": "StringContainsNode",
             "PluginId": "ffffffff-ffff-ffff-ffff-ffffffffffff",
-            "Name": "Data Model-Value",
-            "Description": "Outputs a selectable data model value.",
+            "Name": "Contains",
+            "Description": "Checks whether the first input is contained in the second input.",
             "IsExitNode": false,
-            "X": -410.0,
-            "Y": -10.0,
-            "Storage": "{\"$type\":\"Artemis.Storage.Entities.Profile.DataModelPathEntity, Artemis.Storage\",\"Path\":\"ActiveWindow.ProcessName\",\"DataModelId\":\"Artemis.Plugins.Modules.Processes.ProcessesModule-7c490c59\"}",
+            "X": -160.0,
+            "Y": 50.0,
+            "Storage": "",
             "PinCollections": {
               "$type": "System.Collections.Generic.List`1[[Artemis.Storage.Entities.Profile.Nodes.NodePinCollectionEntity, Artemis.Storage]], System.Private.CoreLib",
               "$values": []
@@ -68,15 +68,15 @@
           },
           {
             "$type": "Artemis.Storage.Entities.Profile.Nodes.NodeEntity, Artemis.Storage",
-            "Id": "e18b22a0-2098-42ec-b1c6-e1794d477967",
-            "Type": "StringContainsNode",
+            "Id": "44d21dec-f030-4abf-a9fd-f4d00e0779c0",
+            "Type": "DataModelNode",
             "PluginId": "ffffffff-ffff-ffff-ffff-ffffffffffff",
-            "Name": "Contains",
-            "Description": "Checks whether the first input is contained in the second input.",
+            "Name": "Data Model-Value",
+            "Description": "Outputs a selectable data model value.",
             "IsExitNode": false,
-            "X": -160.0,
-            "Y": 50.0,
-            "Storage": "",
+            "X": -410.0,
+            "Y": -10.0,
+            "Storage": "{\"$type\":\"Artemis.Storage.Entities.Profile.DataModelPathEntity, Artemis.Storage\",\"Path\":\"ActiveWindow.ProcessName\",\"DataModelId\":\"Artemis.Plugins.Modules.Processes.ProcessesModule-7c490c59\"}",
             "PinCollections": {
               "$type": "System.Collections.Generic.List`1[[Artemis.Storage.Entities.Profile.Nodes.NodePinCollectionEntity, Artemis.Storage]], System.Private.CoreLib",
               "$values": []
@@ -136,7 +136,7 @@
     "Id": "0eca1df6-9a30-47c1-9080-01006ec3a46b",
     "Name": "Subnautica",
     "IsFreshImport": false,
-    "LastSelectedProfileElement": "42d97f9b-c5b6-4a74-acd8-a94e937a4294",
+    "LastSelectedProfileElement": "2bd6d642-9547-4eef-b2d3-352730a66f4c",
     "Folders": {
       "$type": "System.Collections.Generic.List`1[[Artemis.Storage.Entities.Profile.FolderEntity, Artemis.Storage]], System.Private.CoreLib",
       "$values": [
@@ -1392,7 +1392,7 @@
                     "IsExitNode": true,
                     "X": 220.0,
                     "Y": 20.0,
-                    "Storage": null,
+                    "Storage": "",
                     "PinCollections": {
                       "$type": "System.Collections.Generic.List`1[[Artemis.Storage.Entities.Profile.Nodes.NodePinCollectionEntity, Artemis.Storage]], System.Private.CoreLib",
                       "$values": []
@@ -2688,7 +2688,7 @@
           "DisplayCondition": {
             "$type": "Artemis.Storage.Entities.Profile.Conditions.StaticConditionEntity, Artemis.Storage",
             "PlayMode": 1,
-            "StopMode": 0,
+            "StopMode": 1,
             "Script": {
               "$type": "Artemis.Storage.Entities.Profile.Nodes.NodeScriptEntity, Artemis.Storage",
               "Name": "Activate Layer",
@@ -2706,7 +2706,7 @@
                     "IsExitNode": true,
                     "X": 90.0,
                     "Y": 20.0,
-                    "Storage": null,
+                    "Storage": "",
                     "PinCollections": {
                       "$type": "System.Collections.Generic.List`1[[Artemis.Storage.Entities.Profile.Nodes.NodePinCollectionEntity, Artemis.Storage]], System.Private.CoreLib",
                       "$values": []
@@ -2778,7 +2778,7 @@
           "Timeline": {
             "$type": "Artemis.Storage.Entities.Profile.TimelineEntity, Artemis.Storage",
             "StartSegmentLength": "00:00:00",
-            "MainSegmentLength": "00:00:00.5000000",
+            "MainSegmentLength": "00:00:01",
             "EndSegmentLength": "00:00:00"
           }
         },
@@ -4002,7 +4002,7 @@
           "DisplayCondition": {
             "$type": "Artemis.Storage.Entities.Profile.Conditions.StaticConditionEntity, Artemis.Storage",
             "PlayMode": 1,
-            "StopMode": 0,
+            "StopMode": 1,
             "Script": {
               "$type": "Artemis.Storage.Entities.Profile.Nodes.NodeScriptEntity, Artemis.Storage",
               "Name": "Activate Layer",
@@ -4020,7 +4020,7 @@
                     "IsExitNode": true,
                     "X": 90.0,
                     "Y": 20.0,
-                    "Storage": null,
+                    "Storage": "",
                     "PinCollections": {
                       "$type": "System.Collections.Generic.List`1[[Artemis.Storage.Entities.Profile.Nodes.NodePinCollectionEntity, Artemis.Storage]], System.Private.CoreLib",
                       "$values": []
@@ -4092,7 +4092,7 @@
           "Timeline": {
             "$type": "Artemis.Storage.Entities.Profile.TimelineEntity, Artemis.Storage",
             "StartSegmentLength": "00:00:00",
-            "MainSegmentLength": "00:00:00.5000000",
+            "MainSegmentLength": "00:00:01",
             "EndSegmentLength": "00:00:00"
           }
         },
@@ -4492,11 +4492,11 @@
                                   "Type": "DataBindingExitNode`1",
                                   "PluginId": "ffffffff-ffff-ffff-ffff-ffffffffffff",
                                   "Name": "Percentage",
-                                  "Description": null,
+                                  "Description": "",
                                   "IsExitNode": true,
                                   "X": 0.0,
                                   "Y": 0.0,
-                                  "Storage": null,
+                                  "Storage": "",
                                   "PinCollections": {
                                     "$type": "System.Collections.Generic.List`1[[Artemis.Storage.Entities.Profile.Nodes.NodePinCollectionEntity, Artemis.Storage]], System.Private.CoreLib",
                                     "$values": []
@@ -5027,11 +5027,11 @@
                                   "Type": "DataBindingExitNode`1",
                                   "PluginId": "ffffffff-ffff-ffff-ffff-ffffffffffff",
                                   "Name": "Percentage",
-                                  "Description": null,
+                                  "Description": "",
                                   "IsExitNode": true,
                                   "X": 0.0,
                                   "Y": 0.0,
-                                  "Storage": null,
+                                  "Storage": "",
                                   "PinCollections": {
                                     "$type": "System.Collections.Generic.List`1[[Artemis.Storage.Entities.Profile.Nodes.NodePinCollectionEntity, Artemis.Storage]], System.Private.CoreLib",
                                     "$values": []
@@ -5556,11 +5556,11 @@
                                   "Type": "DataBindingExitNode`1",
                                   "PluginId": "ffffffff-ffff-ffff-ffff-ffffffffffff",
                                   "Name": "Percentage",
-                                  "Description": null,
+                                  "Description": "",
                                   "IsExitNode": true,
-                                  "X": 0.0,
+                                  "X": 50.0,
                                   "Y": 0.0,
-                                  "Storage": null,
+                                  "Storage": "",
                                   "PinCollections": {
                                     "$type": "System.Collections.Generic.List`1[[Artemis.Storage.Entities.Profile.Nodes.NodePinCollectionEntity, Artemis.Storage]], System.Private.CoreLib",
                                     "$values": []
@@ -5574,7 +5574,7 @@
                                   "Name": "Data Model-Value",
                                   "Description": "Outputs a selectable data model value.",
                                   "IsExitNode": false,
-                                  "X": -200.0,
+                                  "X": -230.0,
                                   "Y": -40.0,
                                   "Storage": "{\"$type\":\"Artemis.Storage.Entities.Profile.DataModelPathEntity, Artemis.Storage\",\"Path\":\"Player.Water\",\"DataModelId\":\"Artemis.Plugins.Games.Subnautica.Module.SubnauticaModule-16b8e6cb\"}",
                                   "PinCollections": {
@@ -6103,11 +6103,11 @@
                                   "Type": "DataBindingExitNode`1",
                                   "PluginId": "ffffffff-ffff-ffff-ffff-ffffffffffff",
                                   "Name": "Percentage",
-                                  "Description": null,
+                                  "Description": "",
                                   "IsExitNode": true,
                                   "X": 200.0,
                                   "Y": -40.0,
-                                  "Storage": null,
+                                  "Storage": "",
                                   "PinCollections": {
                                     "$type": "System.Collections.Generic.List`1[[Artemis.Storage.Entities.Profile.Nodes.NodePinCollectionEntity, Artemis.Storage]], System.Private.CoreLib",
                                     "$values": []
@@ -7459,11 +7459,11 @@
                               "Type": "DataBindingExitNode`1",
                               "PluginId": "ffffffff-ffff-ffff-ffff-ffffffffffff",
                               "Name": "Min and max",
-                              "Description": null,
+                              "Description": "",
                               "IsExitNode": true,
                               "X": 140.0,
                               "Y": 10.0,
-                              "Storage": null,
+                              "Storage": "",
                               "PinCollections": {
                                 "$type": "System.Collections.Generic.List`1[[Artemis.Storage.Entities.Profile.Nodes.NodePinCollectionEntity, Artemis.Storage]], System.Private.CoreLib",
                                 "$values": []
@@ -7520,11 +7520,11 @@
                               "Type": "DataBindingExitNode`1",
                               "PluginId": "ffffffff-ffff-ffff-ffff-ffffffffffff",
                               "Name": "Current value",
-                              "Description": null,
+                              "Description": "",
                               "IsExitNode": true,
                               "X": 120.0,
                               "Y": -10.0,
-                              "Storage": null,
+                              "Storage": "",
                               "PinCollections": {
                                 "$type": "System.Collections.Generic.List`1[[Artemis.Storage.Entities.Profile.Nodes.NodePinCollectionEntity, Artemis.Storage]], System.Private.CoreLib",
                                 "$values": []
