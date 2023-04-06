@@ -1,0 +1,12 @@
+{
+  "Id": "Artemis.Plugins.Games.Subnautica.GSI",
+  "DisplayName": "Send information to Artemis",
+  "Author": "Diekase",
+  "Version": "1.0.0",
+  "Enable": true,
+  "AssemblyName": "Artemis.Plugins.Games.Subnautica.GSI.dll",
+  "VersionDependencies": {
+    "SMLHelper": "2.9.6"
+  },
+  "Game": "Subnautica"
+}

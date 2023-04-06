@@ -1,0 +1,15 @@
+{
+  "Guid": "16B8E6CB-722A-426E-B6E1-85412C23C6F1",
+  "Name": "Subnautica",
+  "Description": "A game module for Subnautica",
+  "Author": "Diekase",
+  "Website": "https://artemis-rgb.com/",
+  "Repository": "",
+  "Icon": "QuestionMark",
+  "Version": "1.0.0.0",
+  "Main": "Artemis.Plugins.Games.Subnautica.Module.dll",
+  "AutoEnableProperties": true,
+  "RequiresAdmin": false,
+  "Platforms": "Windows,Linux,OSX",
+  "Api": "1.0.0"
+}
