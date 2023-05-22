@@ -13,5 +13,6 @@
     <ItemGroup>
         <Content Include="plugin.json" CopyToOutputDirectory="PreserveNewest" />
         <PackageReference Include="ArtemisRGB.Plugins.BuildTask" Version="1.1.0" />
+		<Content Include="Subnautica.json" CopyToOutputDirectory="PreserveNewest"/>
     </ItemGroup>
 </Project>
